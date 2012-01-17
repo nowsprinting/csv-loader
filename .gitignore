@@ -1,0 +1,18 @@
+#.gitignore for Xcode project
+
+#for MacOSX 
+.DS_Store
+
+#for Xcode3 and 4
+build/
+*.swp
+*~.nib
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/default.*
+**/*.xcodeproj/*
+!**/*.xcodeproj/project.pbxproj
+!**.xcodeproj/default.*
+
+#for JetBrains AppCode
+.idea/
